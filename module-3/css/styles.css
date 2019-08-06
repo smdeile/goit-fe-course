@@ -1,0 +1,124 @@
+/* * {
+  outline: 1px solid red;
+} */
+html {
+  box-sizing: border-box;
+  
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Playfair Display", "arial", serif;
+  color: #626262;
+  font-size: 14px;
+  line-height: 24px;
+  margin-top: 77px;
+}
+
+
+.nav-bar a {
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+  height: 24px;
+   color: #626262;
+}
+.nav-bar li {
+  list-style: none;
+  display: inline-block;
+  margin-left: auto;
+}
+.nav-bar nav {
+  margin-bottom: 90px;
+}
+.nav-bar {
+  margin: 0;
+}
+
+.site-navigator a:hover,
+.site-navigator a:focus {
+  color: #03a9f4;
+}
+
+.site-navigator .first-link {
+  margin-left: 165px;
+ }
+
+.site-navigator .second-link {
+  margin-left: 122px;
+}
+.site-navigator .third-link {
+  margin-left: 104 px;
+}
+.site-navigator .fours-link {
+  margin-left: 96 px;
+}
+/* Begin main */
+
+.container {
+  width: 900px;
+  margin: 0;
+  padding: 0;
+}
+
+.container ul {
+padding-inline-start: 0; 
+width: 900px;
+}
+
+.wrapper li {
+list-style: none;
+display: inline-block;
+width: 421px;
+height: 473px;
+padding: 0;
+margin: 0;
+
+}
+.container .photo-title {
+  text-align: left;
+}
+.lifestyle-block li:not(:last-child) { 
+  margin-right: 54px;
+}
+.photodiary-block li:not(:last-child) { 
+  margin-right: 54px;
+}
+.Music-block li:not(:last-child) { 
+  margin-right: 54px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 36px;
+}
+.photo-title {
+  text-transform: uppercase;
+  line-height: 17px;
+  text-align: center;
+}
+
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
