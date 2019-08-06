@@ -34,7 +34,7 @@ body {
   margin-left: auto;
 }
 .nav-bar nav {
-  margin-bottom: 90px;
+  margin-bottom: 97px;
 }
 .nav-bar {
   margin: 0;
@@ -53,10 +53,10 @@ body {
   margin-left: 122px;
 }
 .site-navigator .third-link {
-  margin-left: 104 px;
+  margin-left: 104px;
 }
 .site-navigator .fours-link {
-  margin-left: 96 px;
+  margin-left: 96px;
 }
 /* Begin main */
 
@@ -83,27 +83,49 @@ margin: 0;
 .container .photo-title {
   text-align: left;
 }
+main {
+  font-size: 0;
+}
+
+p {
+  font-size: 14px;
+} 
+
 .lifestyle-block li:not(:last-child) { 
-  margin-right: 54px;
+  margin-right: 58px;
 }
 .photodiary-block li:not(:last-child) { 
-  margin-right: 54px;
+  margin-right: 58px;
 }
 .Music-block li:not(:last-child) { 
-  margin-right: 54px;
+  margin-right: 58px;
 }
 
 h2 {
   font-size: 30px;
   line-height: 36px;
+  margin-bottom: 33px;
 }
 .photo-title {
   text-transform: uppercase;
   line-height: 17px;
   text-align: center;
+  margin: 30px 0px 29px 0px;
 }
 
-
+section:not(:last-child) {
+  margin-bottom: 130px;
+}
+.button {
+  padding: 17 8;
+  border: none;
+  font-size: 20px;
+  line-height: 24px;
+  width: 164px;
+  height: 60px;
+  margin-top: 53px;
+  margin-left: 359px;
+}
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
