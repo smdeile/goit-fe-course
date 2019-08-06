@@ -62,7 +62,7 @@ body {
 
 .container {
   width: 900px;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -117,7 +117,7 @@ section:not(:last-child) {
   margin-bottom: 130px;
 }
 .button {
-  padding: 17 8;
+  padding: 8px 16px;
   border: none;
   font-size: 20px;
   line-height: 24px;
@@ -125,6 +125,7 @@ section:not(:last-child) {
   height: 60px;
   margin-top: 53px;
   margin-left: 359px;
+  margin-bottom: 70px;
 }
 
 .visually-hidden:not(:focus):not(:active),
