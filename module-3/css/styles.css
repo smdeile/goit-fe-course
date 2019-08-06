@@ -126,6 +126,7 @@ section:not(:last-child) {
   margin-top: 53px;
   margin-left: 359px;
   margin-bottom: 70px;
+  color: #626262;
 }
 
 .visually-hidden:not(:focus):not(:active),
