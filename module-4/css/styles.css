@@ -39,8 +39,14 @@ img {
     display: inline-block
 }
 
-
-
+.products p {
+    width: 124px;
+    margin: 0;
+    display: inline-block;
+}
+.products p::after {
+column-span: none;
+}
 .clearfix::after {
     content: "";
     display: table;
