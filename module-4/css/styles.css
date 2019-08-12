@@ -162,27 +162,27 @@ h2 {
   padding-top: 4px;
 }
 .first-row p::after {
-  content: "26$";
+  content: "$26";
   padding-left: 13px;
   padding-top: 4px;
 }
 .second-row p::after {
-  content: "31$";
+  content: "$31";
   padding-left: 13px;
   padding-top: 4px;
 }
 .third-row p::after {
-  content: "21$";
+  content: "$21";
   padding-left: 13px;
   padding-top: 4px;
 }
 .four-row p::after {
-  content: "56$";
+  content: "$56";
   padding-left: 13px;
   padding-top: 4px;
 }
 . p::after {
-  content: "56$";
+  content: "$56";
   padding-left: 13px;
   padding-top: 4px;
 }
@@ -304,7 +304,7 @@ h2 {
 }
 
 .button {
-  font-family: opensans;
+  font-family: open sans;
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
