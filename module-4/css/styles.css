@@ -8,32 +8,41 @@ html {
   box-sizing: inherit;
 }
 body {
+  
   font-family: "Roboto", "Open Sans", arial, sans-serif;
   width: auto;
 }
+
 .container {
   width: 1110px;
   padding: 0;
   margin: 0 auto;
 }
 
-.nav {
-  float: right;
-  width: 464px;
+.nav-bar nav {
+  padding: 40px 0px;
+  vertical-align: middle;
+  margin-bottom: 65px;
 }
 .logo {
   display: inline-block;
   width: 76px;
   height: auto;
+  float: left;
+  margin: 0;
 }
-.nav-menu {
-  padding: 0;
+.nav p {
+  float: left;
 }
 .nav ul {
-  padding-inline-start: 0;
+  float: right;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  width: 480px;
 }
 .logo a {
-  text-decoration: none;
+   text-decoration: none;
   display: inline-block;
   font-size: 30px;
   line-height: 32px;
@@ -56,7 +65,7 @@ body {
   line-height: 11px;
   font-weight: 700;
   color: #0f0101;
-  /* text-indent: -20px; */
+  text-indent: -20px;
 }
 .nav-menu .home {
   margin-right: 34px;
@@ -103,14 +112,18 @@ h2 {
 .products-link {
   background: #323232;
 }
-.products-item-list a::after {
+.products-item-list p{
+  width: 255px;
+  height: 40px;
+}
+.products-item-list p::after {
 display: inline-block;
 height: 40px;
 width: 55px;
 background-color: #8c8c8c;
 color: #ffffff;
 content: '';
-margin-left: 83px;
+margin-left: px;
 }
 
 
@@ -136,7 +149,7 @@ margin-left: 83px;
 .products-link a {
     display: inline-block;
     height: 40px;
-    width: 255px;
+    width: 200px;
   text-decoration: none;
   font-family: Roboto;
   font-weight: 900;
@@ -144,21 +157,37 @@ margin-left: 83px;
   line-height: 32px;
   color: #ffffff;
   background: #323232;
+  padding-left: 13px;
+  padding-top: 4px;
+  
   
  }
-.first-row a::after {
+.first-row p::after {
     content: '26$';
+    padding-left: 13px;
+    padding-top: 4px;
 }
-.second-row a::after {
+.second-row p::after {
     content: '31$';
+    padding-left: 13px;
+    padding-top: 4px;
 }
-.third-row a::after {
+.third-row p::after {
     content: '21$';
+    padding-left: 13px;
+    padding-top: 4px;
 }
-.four-row a::after {
+.four-row p::after {
+  content: '56$';
+  padding-left: 13px;
+  padding-top: 4px;
+}
+. p::after {
     content: '56$';
+    padding-left: 13px;
+    padding-top: 4px;
 }
-.products-link a::after {
+.products-list p::after {
   display: inline-block;
 float: right;
   width: 55px;
@@ -169,15 +198,17 @@ float: right;
   line-height: 32px;
   color: #ffffff;
   vertical-align: middle;
-  text-align: left;
-  margin-left: 13px;
+ 
+  
+}
+.heading-block {
+  margin-bottom: 68px;
 }
 .products-list a:hover,
 .products-list a:focus {
     background-color: #1abc9c;
 }
-.products-list a:hover::after,
-.products-list a:focus::after: {
+.products-list:hover .products-link {
     background-color: #7fd9c7;
 }
 .clearfix::after {
@@ -216,6 +247,7 @@ float: right;
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
+  color: #555252;
 }
 .news-list h3::after {
     display: block;
@@ -260,6 +292,9 @@ float: right;
   content: "";
 
   background-image: url(../img/bus.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .news-item {
     font-size: 0;
