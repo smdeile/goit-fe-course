@@ -46,7 +46,7 @@ body {
   display: inline-block;
   font-size: 30px;
   line-height: 32px;
-  font-style: roboto;
+  font-style: "Roboto";
   font-weight: 300;
   color: #555252;
 }
@@ -123,7 +123,6 @@ width: 55px;
 background-color: #8c8c8c;
 color: #ffffff;
 content: '';
-margin-left: px;
 }
 
 
@@ -189,18 +188,16 @@ margin-left: px;
 }
 .products-list p::after {
   display: inline-block;
-float: right;
+  float: right;
   width: 55px;
-  height: 40;
+  height: 40px;
   font-family: Roboto;
   font-weight: 900;
   font-size: 18px;
   line-height: 32px;
   color: #ffffff;
   vertical-align: middle;
- 
-  
-}
+ }
 .heading-block {
   margin-bottom: 68px;
 }
