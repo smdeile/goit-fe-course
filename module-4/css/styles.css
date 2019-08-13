@@ -25,14 +25,11 @@ body {
 }
 .logo {
   display: inline-block;
-  width: 76px;
   height: auto;
   float: left;
   margin: 0;
 }
-.nav p {
-  float: left;
-}
+
 .nav ul {
   float: right;
   padding: 0;
@@ -101,16 +98,17 @@ h2 {
   color: #515151;
 }
 .featured-products h2 {
-  margin-left: 328px;
+  /* margin-left: 328px; */
+  text-align: center;
 }
 .featured-products h2::after {
   display: block;
-  width: 164px;
+  width: 178px;
   height: 7px;
   background-color: #1abc9c;
   content: "";
   margin-top: 25px;
-  margin-left: 146px;
+  margin-left: 460px;
 }
 .products-link {
   background: #323232;
@@ -295,10 +293,17 @@ h2 {
   font-size: 0;
 }
 
-.news-item p {
+.news-list p {
   font-family: opensans;
   font-weight: 400;
   font-size: 14px;
+  line-height: 26px;
+  color: #555252;
+}
+.news-list h3 {
+  font-family: opensans;
+  font-weight: 600;
+  font-size: 18px;
   line-height: 26px;
   color: #555252;
 }
@@ -314,7 +319,10 @@ h2 {
   width: 160px;
   border: none;
   margin-bottom: 46px;
+  cursor: pointer;
+  border-radius: 3px;
 }
+
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,

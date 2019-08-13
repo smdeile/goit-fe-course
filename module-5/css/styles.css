@@ -1,0 +1,151 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  font-family: "Roboto", "Open Sans", arial, sans-serif;
+  width: auto;
+}
+
+.container {
+  width: 1110px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.nav-bar nav {
+  padding: 40px 0px;
+  vertical-align: middle;
+  margin-bottom: 65px;
+}
+.logo {
+  display: inline-block;
+  width: 76px;
+  height: auto;
+  float: left;
+  margin: 0;
+}
+.nav p {
+  float: left;
+}
+.nav ul {
+  float: right;
+  padding: 0;
+  margin: 0;
+  margin-top: 5px;
+  width: 470px;
+}
+.logo a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  line-height: 32px;
+  font-family: Roboto;
+  font-weight: 300;
+  color: #555252;
+}
+.logo a::first-letter {
+  font-weight: 900;
+  color: #1abc9c;
+}
+
+.nav-menu li {
+  float: left;
+  list-style: none;
+}
+.list-item a {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 11px;
+  font-weight: 700;
+  color: #0f0101;
+  text-indent: -20px;
+}
+.list-item a:hover,
+.list-item a:focus {
+  color: #1abc9c;
+}
+.nav-menu .home {
+  margin-right: 32px;
+}
+.nav-menu .about {
+  margin-right: 36px;
+}
+.nav-menu .page {
+  margin-right: 28px;
+}
+.nav-menu .shop {
+  margin-right: 25px;
+}
+.nav-menu .blog {
+  margin-right: 33px;
+}
+.nav-menu .contact {
+  margin-right: 0px;
+}
+.list-item a {
+  text-decoration: none;
+}
+/* main block with slide */
+
+.slides-block {
+  position: relative;
+  margin: auto;
+  width: 1600px;
+  height: 600px;
+
+}
+.main-slide {
+  max-width: 100%;
+  height: auto;
+}
+.slide-hedder {
+  position: absolute;
+  width: 645px;
+  height: 45px;
+  transform: translate (-50%, -50%);
+  bottom: 50%;
+  z-index: 1;
+}
+
+.ctrl-button {
+  position: absolute;
+display: block;
+  height: 104px;
+  width: 104px;
+ 
+}
+.ctrl-button .next {
+
+  background-color: rgb(26, 188, 156);
+ 
+}
+
+.ctrl-button .prev {
+  background-color: rgb(78, 198, 171);
+  opacity: 0.651;
+}
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
