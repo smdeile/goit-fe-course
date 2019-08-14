@@ -193,8 +193,48 @@ color: #ffffff;
   color: #ffffff;
 }
 
+/* 2 block of main */
+
+.bottom-box {
+  background-image: url(/img/background.jpg);
+  position: relative;
+  width: 1600px;
+  height: 600px;
+}
+.bottom-box h3 {
+  text-align: center;
+}
+
+.bottom-box-hedder::after {
+  display: block;
+  width: 178px;
+  height: 7px;
+  background-color: #1abc9c;
+  content: "";
+  margin-top: 25px;
+  margin-left: 460px;
+  text-align: center;
+
+.item-list {
+  margin: 0;
+  padding: 0;
+}
+
+.products {
+  list-style: none;
+  float: left;
+}
 
 
+
+
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
