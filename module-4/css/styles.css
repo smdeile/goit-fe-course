@@ -294,14 +294,14 @@ h2 {
 }
 
 .news-list p {
-  font-family: opensans;
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   line-height: 26px;
   color: #555252;
 }
 .news-list h3 {
-  font-family: opensans;
+  font-family: "Open Sans";
   font-weight: 600;
   font-size: 18px;
   line-height: 26px;
@@ -309,7 +309,7 @@ h2 {
 }
 
 .button {
-  font-family: open sans;
+  font-family: "Open Sans";
   font-size: 16px;
   line-height: 26px;
   font-weight: 300;
