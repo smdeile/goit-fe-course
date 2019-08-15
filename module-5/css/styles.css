@@ -23,7 +23,6 @@ body {
 
 .nav-bar nav {
   padding: 40px 0px;
-  vertical-align: middle;
   margin-bottom: 33px;
 }
 .logo {
@@ -98,6 +97,7 @@ body {
   margin: 0 auto;
   width: 1600px;
   height: 600px;
+  
 
 }
 .slider {
@@ -200,25 +200,35 @@ color: #ffffff;
   position: relative;
   width: 1600px;
   height: 600px;
+ 
 }
 
 .bottom-box h3 {
   text-align: center;
+  padding-top: 100px;
+  margin: 0;
+  font-family: roboto;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #515151;
+  margin-bottom: 80px;
 }
 
 .bottom-box h3::after {
   display: block;
   width: 178px;
   height: 7px;
-  background-color: rgb(0, 0, 0);
+  background-color: #1abc9c;
   content: "";
   margin-top: 25px;
-  margin-left: 460px;
-  text-align: center;
+  margin-left: 720px;
 }
   .item-list {
   margin: 0;
   padding: 0;
+  margin-left: 245px;
+  margin-bottom: 100px;
 }
 
 .products {
@@ -226,9 +236,20 @@ color: #ffffff;
   float: left;
 }
 
+.products:not(:last-child) {
+  margin-right: 30px;
+}
 
+footer {
+  width:auto;
+}
 
-
+.last-block {
+  background-color: #323232;
+  width: 1600px;
+  height: 88px;
+  
+}
 
 
 .clearfix::after {
@@ -236,6 +257,8 @@ color: #ffffff;
   display: table;
   clear: both;
 }
+
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
