@@ -288,25 +288,7 @@ color: #ffffff;
   }
 
   
-.last-block p {
-  width:auto;
-  font-family: "open sans";
-  font-size: 16px;
-  line-height: 28px;
-  font-weight: 400;
-  text-align: center;
-  padding-top: 30px;
-}
 
-
-.last-block {
-  background-image: url(/img/bottom-footer.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 1600px;
-  height: 88px;
-}
 
 .clearfix::after {
   content: "";
@@ -402,18 +384,6 @@ position: relative;
   top: 0px;
 }
 
-/* .lower-button button::before {
-  
-  width: 48px;
-  height: 48px;
-  background-image: url(/img/basket.png);
-  content: "";
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-size: 50%;
-
-} */
 .item-list li:hover .products-variants {
 display: block;
 }
@@ -425,9 +395,51 @@ display: block;
     }
 .products-variants button:hover {
   background-color: rgba(26, 188, 156);
+  opacity: 100%;
 }
-.products-variants button:hover {
+.item-list li:focus .products-variants {
+  display: block;
+  }
+  .item-list li:focus .products-signature a {
+    background-color: rgba(26, 188, 156);
+    }
+    .item-list li:focus .products-signature p {
+      background-color: rgba(127, 217, 199);
+      }
+  .products-variants button:hover {
+    background-color: rgba(26, 188, 156);
+    opacity: 100%;
+  }
+.products-variants button:focus {
   background-color: rgba(26, 188, 156);
+  opacity: 1;
+}
+
+
+
+/* footer */
+
+.last-block p {
+  width:auto;
+  font-family: "open sans";
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 30px;
+}
+.last-block a {
+  color: #46bfa9;
+
+}
+
+.last-block {
+  background-image: url(/img/bottom-footer.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1600px;
+  height: 88px;
 }
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
