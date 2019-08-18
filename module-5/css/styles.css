@@ -239,7 +239,7 @@ color: #ffffff;
 .products {
   list-style: none;
   float: left;
-  /* position: relative; */
+
 }
 .products-signature {
   position: absolute;
@@ -340,14 +340,14 @@ color: #ffffff;
   margin-right: 8px;
 }
 .products-variants .products-variants-like {
-  background-image: url(/img/heart.png);
+  background-image: url(img/heart.png);
  }
 
 .products-variants .products-variants-share {
-background-image: url(/img/arrows.png);
+background-image: url(img/arrows.png);
 }
 .products-variants .products-variants-remind {
-background-image: url(/img/clock.png);
+background-image: url(img/clock.png);
 }
 
 .lower-button button {
@@ -372,7 +372,7 @@ position: relative;
   display: inline-block;
   width: 48px;
   height: 48px;
-  background-image: url(/img/basket.png);
+  background-image: url(img/basket.png);
   content: "";
   background-position: center;
   background-size: cover;
@@ -434,7 +434,7 @@ display: block;
 }
 
 .last-block {
-  background-image: url(/img/bottom-footer.jpg);
+  background-image: url(img/bottom-footer.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
