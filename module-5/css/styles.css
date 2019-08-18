@@ -193,7 +193,7 @@ color: #ffffff;
   color: #ffffff;
 }
 
-/* 2 block of main */
+/* second block of main */
 
 .bottom-box {
   background-color: #e9f0fd;
@@ -243,10 +243,10 @@ color: #ffffff;
 }
 .products-signature {
   position: absolute;
-  
-  bottom: 0px;
-
+    bottom: 0px;
 }
+
+
 .products a {
   padding: 1px;
   float: left;
@@ -284,19 +284,21 @@ color: #ffffff;
   position: absolute;
   top: 10px;
    right: 10px; 
+
   }
 
-
-footer {
+  
+.last-block p {
   width:auto;
+  font-family: "open sans";
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 30px;
 }
 
-/* .last-block {
-  background-color: #323232;
-  width: 1600px;
-  height: 88px;
-  
-} */
+
 .last-block {
   background-image: url(/img/bottom-footer.jpg);
   background-repeat: no-repeat;
@@ -317,35 +319,116 @@ footer {
 }
 .products-signature {
   color: #ffffff;
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 32px;
+  
+}
+.products-signature a {
+  padding-top: 4px;
+  padding-left: 12px;
+}
+.products-signature p {
+  padding-top: 4px;
+  padding-left: 12px;
 }
 .products-variants {
   display: none;
 }
-.products-variants button {
-  width: 48px;
-  height: 48px;
-  border: 1px, solid  rgb(255, 255, 255) ;
+.top-buttoms button {
+  width: 50px;
+  height: 50px;
   background: transparent;
+  border: 1px, solid  rgb(255, 255, 255) ;
   border-color: rgb(255, 255, 255);
   border-width: 1px;
-  color:  #ffffff;
-  font-size: 30px;
-  line-height: 32px;
-  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  }
+
+  .top-buttoms {
+    padding-top: 80px;
+    padding-left: 35px;
+    margin-bottom: 8px;
+  }
+.top-buttoms button:not(:last-of-type) {
+  margin-right: 8px;
 }
+.products-variants .products-variants-like {
+  background-image: url(/img/heart.png);
+ }
+
+.products-variants .products-variants-share {
+background-image: url(/img/arrows.png);
+}
+.products-variants .products-variants-remind {
+background-image: url(/img/clock.png);
+}
+
+.lower-button button {
+  display: block;
+width: 174px;
+height: 50px;
+background-color: #323232;
+border: 1px, solid  rgb(255, 255, 255) ;
+  border-color: rgb(255, 255, 255);
+  border-width: 1px;
+color: #ffffff;
+font-family: "open sans";
+ font-size: 14px;
+ line-height: 32px;
+  margin-left: 35px;
+  padding-right: 22px;
+ vertical-align: middle;
+ text-align: right;
+position: relative;
+}
+.lower-button button::before {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-image: url(/img/basket.png);
+  content: "";
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  margin: 0px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+/* .lower-button button::before {
+  
+  width: 48px;
+  height: 48px;
+  background-image: url(/img/basket.png);
+  content: "";
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 50%;
+
+} */
 .item-list li:hover .products-variants {
 display: block;
 }
 .item-list li:hover .products-signature a {
-  background-color: #1abc9c;
+  background-color: rgba(26, 188, 156);
   }
   .item-list li:hover .products-signature p {
-    background-color: #7fd9c7;
+    background-color: rgba(127, 217, 199);
     }
 .products-variants button:hover {
-  background-color: #1abc9c;
+  background-color: rgba(26, 188, 156);
 }
-
+.products-variants button:hover {
+  background-color: rgba(26, 188, 156);
+}
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
