@@ -159,31 +159,51 @@ font-size: 0;
   height: 104px;
   width: 104px;
   border: none;
-}
-.next {
   background-color: rgb(26, 188, 156);
-  right: 0px;
-  bottom: 268px;
+  
   z-index: 3;
   font-size: 100px;
   line-height: 11px;
   color: #ffffff;
   cursor: pointer;
+}
+.next {
+  right: 0px;
+  bottom: 268px;
 }
 
 .prev {
-  background-color: rgb(78, 198, 171);
-  opacity: 0.651;
+  
   left: 0px;
   bottom: 268px;
-
-  z-index: 3;
-  font-size: 100px;
-  line-height: 11px;
-  color: #ffffff;
-  cursor: pointer;
+ 
+}
+.next::after,
+.prev::after {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  content: "";
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+.next::after {
+  background-image: url(../img/next.png);
+  
+}
+.prev::after {
+  background-image: url(../img/prev.png);
+  
 }
 
+.slides-block-text .next:hover {
+  opacity: 0.651;
+}
+.slides-block-text .prev:hover {
+  opacity: 0.651;
+}
 /* second block of main */
 .bottom-box {
   position: relative;
@@ -343,7 +363,7 @@ font-size: 0;
 
 .lower-button button {
   display: block;
-  width: 174px;
+  width: 166px;
   height: 50px;
   background-color: #323232;
   opacity: 1;
