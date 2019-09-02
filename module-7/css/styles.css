@@ -271,7 +271,7 @@ z-index: 1;
 }
 
 .footer-form-background-map {
-  background-image: url('/icons/Map-Image.png');
+  background-image: url('../icons/Map-Image.png');
   /* opacity: 0.3; */
   position: absolute;
   right: -170px;
