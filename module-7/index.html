@@ -68,7 +68,7 @@
       <div class="header-form-box wrapper">
         <div class="contact-us-header-box">
           <div class="contact-us-header-position">
-            <h2 class="contact-us-header">CONTACT-US</h2>
+            <h2 class="contact-us-header">CONTACT US</h2>
             <p class="contact-us-under-header">
               Proin iaculis purus consequat sem cure.
             </p>
@@ -90,27 +90,29 @@
         <div class="table">
           <div class="footer-form-background-map"></div>
           <table class="separate">
-            <form action="get">
+            <form class="form" action="get">
               <tr>
-                <td><input type="text" /></td>
+                <td><input type="text" placeholder="YOUR NAME *" name="name" autofocus required/></td>
                 <td rowspan="3">
                   <textarea
                     class="textarea"
-                    name=""
+                    placeholder="YOUR MASSAGE *"
+                    name="YOUR MASSAGE *"
                     id=""
                     cols="30"
                     rows="10"
+                    required
                   ></textarea>
                 </td>
               </tr>
               <tr>
-                <td><input type="text" /></td>
+                <td><input type="email" placeholder="YOUR E-MAIL *" name="email" required/></td>
               </tr>
               <tr>
-                <td><input type="text" /></td>
+                <td><input type="text" placeholder="SUBJECT" name="subject"/></td>
               </tr>
               <tr>
-                <td colspan="2"><button>SEND MASSAGE</button></td>
+                <td colspan="2"><button type="submit">SEND MASSAGE</button></td>
               </tr>
             </form>
           </table>

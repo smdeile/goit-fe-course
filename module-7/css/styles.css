@@ -314,6 +314,11 @@ input {
 
   border-collapse: separate;
   border-spacing: 30px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .separate tr:not(:last-child) {
@@ -324,6 +329,8 @@ input {
   width: 455px;
   bottom: 0;
   padding: 0;
+  font-family: 
+
 
 }
 .header-form-box {
@@ -348,3 +355,26 @@ input {
   border-radius: 3px;
 }
 
+.textarea {
+  padding-left: 20px;
+  padding-top: 20px;
+  resize: none;
+  border-radius: 3px;
+  background-color: #fff;
+  border-style: none;
+}
+.textarea::placeholder {
+ 
+}
+input:valid {
+  outline: 2px solid green;
+}
+input:invalid {
+  outline: 2px solid red;
+}
+input {
+  padding-left: 20px;
+  border-radius: 3px;
+  background-color: #fff;
+  border-style: none;
+}
