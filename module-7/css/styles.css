@@ -174,7 +174,7 @@ html {
   content: "";
   width: 75px;
   height: 75px;
-  background-image: url('../icons/Circle.png')
+  background-image: url("../icons/Circle.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
