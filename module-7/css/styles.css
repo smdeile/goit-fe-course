@@ -353,6 +353,7 @@ input {
   background-color: #fed136;
   border-style: none;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .textarea {
