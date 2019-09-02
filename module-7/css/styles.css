@@ -161,20 +161,20 @@ html {
   left: 138px;
 }
 .basket {
-  background-image: url(/icons/Icon-Basket.png);
+  background-image: url('/icons/Icon-Basket.png');
 }
 .laptop {
-  background-image: url(/icons/Icon-Laptop.png);
+  background-image: url('/icons/Icon-Laptop.png');
 }
 .locked {
-  background-image: url(/icons/Icon-Locked.png);
+  background-image: url('/icons/Icon-Locked.png');
 }
 .services-list li::before {
   display: block;
   content: "";
   width: 75px;
   height: 75px;
-  background-image: url("/icons/Circle.png");
+  background-image: url('/icons/Circle.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -271,7 +271,7 @@ z-index: 1;
 }
 
 .footer-form-background-map {
-  background-image: url(/icons/Map\ Image.png);
+  background-image: url('/icons/Map-Image.png');
   /* opacity: 0.3; */
   position: absolute;
   right: -170px;
