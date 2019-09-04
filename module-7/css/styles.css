@@ -272,8 +272,8 @@ footer {
   background-image: url("../icons/Map-Image.png");
   /* opacity: 0.3; */
   position: absolute;
-  right: -170px;
-  bottom: -308px;
+  right: -238px;
+  bottom: -160px;
   width: 614px;
   height: 537px;
   position: absolute;
@@ -401,11 +401,12 @@ input::placeholder {
   align-items: center;
   min-height: 212px;
   max-width: 940px;
-  position: relative;
+  
 }
 .form-box-input {
   display: flex;
   justify-content: space-between;
+  position: relative;
 
 }
 .input-left {
