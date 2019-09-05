@@ -21,6 +21,7 @@ html {
       background-size: cover;
       max-height: 700px;
       position: relative;
+      margin-bottom: 70px;
   }
   .background-color {
       position: absolute;
@@ -57,13 +58,150 @@ html {
     color: #ffffff;
     font-weight: 700;
 }
+.menu-items {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+.menu-items:active {
+    border: 2px solid #ffffff;
+}
 .button-box {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
+    align-items: center;
+    color: #ffffff;
+    min-height: 175px;
+    }
+    p, h2, h3, h4 {
+        padding: 0;
+    margin: 0;
+    }
+    .button-under-header {
+        padding: 0;
+    margin: 0;
+    font-weight: 200;
+    }
+.button-find {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    background-color: #ff4e50;
+    border-style: none;
+    border-radius: 20px;
+    height: 40px;
+    color: #ffffff;
 }
 
+.main-block {
+    display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.partners-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.partners-list-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 222px;
+    min-height: 200px;
+    margin-bottom: 30px;
+}
+
+.partners-header {
+    font-size: 22px;
+    line-height: 26px;
+}
+.items-header {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+}
+.items-text {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 200;
+}
+.items-photo {
+    margin-bottom: 20px;
+    display: block;
+    }
+    .items-photo-box {
+        position: relative;
+    }
+
+.items-photo-icon-color{
+    display: block;
+    content: "";
+    width: 40px;
+    height: 40px;
+position: absolute;
+bottom: 20px;
+right: 0px;
+border-radius: 50%;
+border: 4px solid #ffffff;
+
+}
+.items-photo-icon-img {
+    width: 37px;
+    height: 37px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+.partners-list-items:nth-child(1) .items-photo-icon-color {
+    background: #ff4e50;
+}
+.partners-list-items:nth-child(2) .items-photo-icon-color {
+    background: #ffa507;
+}
+.partners-list-items:nth-child(3) .items-photo-icon-color {
+    background: #1cd7ad;
+}
+.partners-list-items:nth-child(4) .items-photo-icon-color {
+    background: #4e73db;
+}
+.partners-list-items:nth-child(1) .items-photo-icon-img {
+    background-image: url("../img/tv.png");
+
+}
+.partners-list-items:nth-child(2) .items-photo-icon-img {
+    background-image: url("../img/chemical-bottle.png");
+
+}
+.partners-list-items:nth-child(3) .items-photo-icon-img {
+    background-image: url("../img/cup.png");
+
+}
+.partners-list-items:nth-child(4) .items-photo-icon-img {
+    background-image: url("../img/telegramm.png");
+
+}
+.partners-button {
+    min-height: 40px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    color: #ff4e50;
+    background-color: transparent;
+}
 @media screen and (min-width: 320px) /*and (max-width: 767px)*/ {
     
     .wrapper {
@@ -73,14 +211,13 @@ html {
     .background-color {
         height: 540px;
     }
-.nav-bar {
-    /* padding: 20px; */
-}
+
 .nav-bar-block {
     flex-direction: column-reverse;
     justify-content: space-between;
     margin-top: 20px;
-    height: 120px;
+    margin-bottom: 40px;
+    min-height: 170px;
 }
 .nav-menu {
     margin: 0;
@@ -89,22 +226,39 @@ list-style: none;
 display: flex;
 justify-content: center;
 }
-.menu-items {
-    display: inline-block;
-    padding: 10px 15px;
-    border: 1px solid transparent;
-    border-radius: 20px;
-}
-.menu-items:active {
-    border: 2px solid #ffffff;
-}
+
 .logo {
     font-size: 20px;
     line-height: 24px;
+    
 }
 .menu-items a {
     text-decoration: none;
     font-size: 14px;
     line-height: 17px;
+}
+.button-header {
+    font-size: 30px;
+    line-height: 36px;
+}
+.button-under-header {
+    font-size: 18px;
+    line-height: 22px;
+}
+.button-find {
+    width: 280px;
+}
+.main-block {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1050px;
+    margin-bottom: 60px;
+}
+.partners-header {
+    margin-bottom: 20px;
+}
+.partners-button {
+    width: 280px;
+    
 }
 }
