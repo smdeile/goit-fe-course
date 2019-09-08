@@ -1,0 +1,249 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    
+    .wrapper {
+        width: 320px;
+        
+    }
+    .nav-bar {
+        height: 540px;
+    }
+    .background-color {
+        height: 540px;
+    }
+
+.nav-bar-block {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    min-height: 170px;
+}
+.nav-menu {
+    margin: 0;
+    padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.logo {
+    font-size: 20px;
+    line-height: 24px;
+    
+}
+.menu-items a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+.button-box {
+   
+    min-height: 175px;
+    }
+.button-header {
+    font-size: 30px;
+    line-height: 36px;
+}
+.button-under-header {
+    font-size: 18px;
+    line-height: 22px;
+}
+.button-find {
+    width: 280px;
+}
+.main-block {
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 1050px;
+    margin-bottom: 60px;
+}
+.partners-header {
+    margin-bottom: 20px;
+}
+.partners-button {
+    width: 280px;
+    
+}
+.partners-list {
+    flex-direction: column;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .wrapper {
+        width: 748px;
+    }
+    .nav-bar {
+        height: 700px;
+    }
+    .background-color {
+        height: 700px;
+    }
+
+.nav-bar-block {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 160px;
+    min-width: 670px;
+}
+.nav-menu {
+    margin: 0;
+    padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.logo {
+    font-size: 20px;
+    line-height: 43px;
+    
+}
+.menu-items a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+.button-box {
+    min-height: 240px;
+    max-width: 500px;
+    }
+.button-header {
+    font-size: 52px;
+    line-height: 62px;
+}
+.button-under-header {
+    font-size: 24px;
+    line-height: 29px;
+}
+.button-find {
+    width: 280px;
+}
+.main-block {
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+
+    /* height: 630px; */
+    margin-bottom: 70px;
+}
+.partners-list {
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 492px;
+    height: 520px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+
+
+.tablet-version li:last-of-type {
+    /* justify-content: flex-start; */
+}
+.partners-list li {
+    min-height: 205px;
+}
+.partners-header {
+    margin-bottom: 40px;
+}
+.partners-button {
+    width: 190px;
+    
+}
+}
+@media screen and (min-width: 1440px) {
+    .wrapper {
+        width: 942px;
+    }
+    .nav-bar {
+        height: 700px;
+    }
+    .background-color {
+        height: 700px;
+    }
+
+.nav-bar-block {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 160px;
+    min-width: 942px;
+}
+.nav-menu {
+    margin: 0;
+    padding: 0;
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.logo {
+    font-size: 20px;
+    line-height: 43px;
+    
+}
+.menu-items a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+}
+.button-box {
+    min-height: 240px;
+    max-width: 500px;
+    }
+.button-header {
+    font-size: 52px;
+    line-height: 62px;
+}
+.button-under-header {
+    font-size: 24px;
+    line-height: 29px;
+}
+.button-find {
+    width: 280px;
+}
+.main-block {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height: 630px; */
+    margin-bottom: 70px;
+}
+.partners-list {
+    width: 942px;
+    /* min-height: 236px; */
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    margin-bottom: 40px;
+    position: relative;
+}
+.partners-list-first {
+flex-direction: row;
+width: 700px; 
+justify-content: space-between;
+}
+.partners-list-second {
+    flex-direction: row;
+    width: 700px;
+    justify-content: space-between;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.desktop-version {
+display: flex;
+flex-direction: row-reverse;
+}
+/* .partners-list li {
+    min-height: 205px;
+} */
+.partners-header {
+    margin-bottom: 40px;
+}
+.partners-button {
+    width: 180px;
+    
+}   
+}
