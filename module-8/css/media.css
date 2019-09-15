@@ -10,9 +10,7 @@
     .background-color {
         height: 540px;
     }
-.background {
-    background-image: url("../img/BG2x.jpg");
-}
+
 .nav-bar-block {
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -165,7 +163,9 @@ justify-content: center;
     .background-color {
         height: 700px;
     }
-
+    .background {
+        background-image: url("../img/BG2x.jpg");
+    }
 .nav-bar-block {
     justify-content: space-between;
     margin-top: 40px;
