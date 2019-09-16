@@ -51,20 +51,66 @@ height: 384px;
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .nav-bar {
         margin-top: 50px;
+        
     }
-    /* .nav-menu {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    } */
+   
+    .nav-bar-block {
+        height: 420px;
+    }
+    .logo {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .menu-items a {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .button-under-header {
+        font-size: 24px;
+    }
+    .button-header {
+        font-size: 52px;
+        
+    }
+    .partners-header {
+        margin-bottom: 35px;
+    }
  .button-box {
      margin-top: 50px;
  }
+ .partners-button {
+     margin-bottom: 40px;
+ }
 }
 @media screen and (min-width: 1200px) {
+    .nav-bar {
+        margin-top: 20px;
+        
 
+    }
+    .logo {
+        font-size: 20px;
+        line-height: 50px;
+    }
+    
+    .nav-bar-block {
+        height: 430px;
+    }
+    .partners-header {
+        margin-bottom: 40px;
+    }
+    .button-header {
+        font-size: 52px;
+       
+    }
+    .button-box {
+        height: 240px;
+    }
 .main-block {
     height: 370px;
+}
+.partners-button {
+    margin-bottom: 70px;
 }
     }
 
