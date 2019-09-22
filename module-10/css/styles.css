@@ -47,7 +47,7 @@ body {
 .nav-menu__item--hover {
   border-bottom: solid transparent 3px;
   color: #ffffff;
-  font-style: montserrat;
+  font-family: montserrat;
 }
 .nav-menu__item--hover:hover {
   transition-property: 
@@ -257,7 +257,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  font-style: roboto;
+  font-family: roboto;
   font-size: 15px;
   line-height: 24px;
   font-weight: 400;
@@ -320,8 +320,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
-  padding: 0;
   min-height: 720px;
   
 }
@@ -377,9 +375,6 @@ cursor: pointer;
   height: 55px;
   width: 225px;
   z-index: 2;
-  margin: 0;
-  padding: 0;
-  
 }
 
 .modal-menu__item {
@@ -411,21 +406,6 @@ cursor: pointer;
 .modal-menu__icon-types {
 fill: #f38181;
 }
-/* .facebook-icon a {
-  background-image: url(../icon/facebook.png);
-  }
-.twitter-icon a {
-  background-image: url(../icon/twitter.png);
-  
-}
-.pinterest-icon a {
-  background-image: url(../icon/pinterest.png);
-  
-}
-.instagram-icon a {
-  background-image: url(../icon/instagram.png);
-  
-} */
 .team-list__item {
   display: flex;
   flex-direction: column;
@@ -458,9 +438,7 @@ fill: #f38181;
   color: #f38181;
   
 }
-.footer__copyright {
-  margin: 0;
-}
+
 .footer__form {
   font-size: 0;
 }
@@ -479,15 +457,9 @@ fill: #f38181;
 }
 
 .footer__button {
-  width: 150px;
-  height: 40px;
-  font-family: montserrat;
-  font-size: 14px;
-  line-height: 17px;
   border-style: none;
   background: #95e1d3;
   color: #ffffff;
-  cursor: pointer;
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .nav-bar__background {
