@@ -99,6 +99,9 @@ body {
   }
   .nav-menu__link-icon:hover .icon {
     fill: #fce38a;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
+    transition-delay: 0;
   }
   .nav-menu__icon-block {
     width: 76px;
@@ -361,9 +364,15 @@ cursor: pointer;
 }
 .modal-menu__item:hover .modal-menu__icon-types {
   fill: #ffffff;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
 }
 .modal-menu__item:hover {
   background: #f38181;
+  transition-duration: 200ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
 }
 .modal-menu__list {
   position: absolute;
@@ -441,6 +450,8 @@ fill: #f38181;
 
 .footer__form {
   font-size: 0;
+  display: flex;
+  align-items: center;
 }
 .footer__input {
   color: #cccccc;
