@@ -1,0 +1,56 @@
+.nav-menu {
+    position: relative;
+    display: flex;
+    min-height: 84px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    &__item {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17px;
+        &--hover {
+            border-bottom: solid transparent 3px;
+            color: $main-color-header-text;
+            font-family: montserrat;
+            &:hover {
+                transition-property: 
+                border-color,
+                color;
+                transition-duration: 200ms;
+                transition-timing-function: linear;
+                transition-delay: 0;
+                border-color: $nav-hover-color;
+                color: $nav-hover-color;
+                }
+            }  
+        }    
+    &__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+        min-width: 490px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        }
+    &__link-icon {
+        height: 17px;
+        width: 17px;
+        display: flex;
+        &:hover .icon {
+            fill: $nav-hover-color;
+            transition-duration: 200ms;
+            transition-timing-function: linear;
+            transition-delay: 0;
+            }
+        }
+    &__icon {
+        fill: $main-color-header-text;
+        }
+    &__icon-block {
+        width: 76px;
+        height: 23px;
+        display: flex;
+        justify-content: space-between;
+        }
+    }

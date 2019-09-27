@@ -1,0 +1,42 @@
+.amazing-list__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    list-style: none;
+    flex-basis: 400px;
+    padding-left: 100px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 400px;
+    min-height: 84px;
+    }
+    .amazing-list__icon {
+    width: 34px;
+    height: 34px;
+    display: block;
+    position: absolute;
+    transform: translate( -70px, -40px );
+    top: 40px;
+    }
+    .amazing-list__icon-types {
+        fill: #1cd7ad;
+    }
+    .amazing-list_header{
+    margin: 0;
+    font-family: montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    text-transform: uppercase;
+    }
+    
+    .amazing-list__property {
+        font-family: roboto;
+        font-size: 15px;
+        font-weight: 400; 
+        line-height: 24px;
+        margin: 0;
+        max-width: 290px;
+    }

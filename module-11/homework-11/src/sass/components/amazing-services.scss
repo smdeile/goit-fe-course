@@ -1,0 +1,14 @@
+.amazing-services {
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    min-height: 528px;
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-around;
+        margin: 0;
+        padding: 0;
+        min-height: 340px;
+        }
+}

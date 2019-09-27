@@ -1,0 +1,31 @@
+.nav-bar {
+    height: 1000px;
+    &__background {
+        display: block;
+        background-image: url(../images/eagle.jpg); 
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 1000px;
+        width: 100%;}
+    &__section {
+            height: 540px;
+            color: $main-color-header-text;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            justify-content: space-between;
+            &--text {
+                font-size: 72px;
+                line-height: 140px;
+            }
+            &--header {
+                font-size: 150px;
+                line-height: 140px;
+            }
+        }
+        &__button {
+            color: $main-color-header-text;
+            border: solid 3px $main-color-header-text;
+            background: transparent;
+        }
+    }
