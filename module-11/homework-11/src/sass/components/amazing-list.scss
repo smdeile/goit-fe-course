@@ -6,7 +6,7 @@
     list-style: none;
     flex-basis: 400px;
     padding-left: 100px;
-    font-family: Roboto;
+    font-family: $second-main-font;
     font-size: 15px;
     font-weight: 400;
     max-width: 400px;
@@ -21,11 +21,11 @@
     top: 40px;
     }
     .amazing-list__icon-types {
-        fill: #1cd7ad;
+        fill: $icon-amazing-color;
     }
     .amazing-list_header{
     margin: 0;
-    font-family: montserrat;
+    font-family: $main-font-header-text;
     font-size: 14px;
     font-weight: 500;
     line-height: 17px;
@@ -33,7 +33,7 @@
     }
     
     .amazing-list__property {
-        font-family: roboto;
+        font-family: $second-main-font;
         font-size: 15px;
         font-weight: 400; 
         line-height: 24px;

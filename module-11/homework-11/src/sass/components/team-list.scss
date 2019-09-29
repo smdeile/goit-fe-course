@@ -3,6 +3,27 @@
     justify-content: space-between;
     align-items: center;
     min-height: 720px;
+    &__signature {
+        display: flex;
+        min-height: 50px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 560px;
+    }
+    &__unit-position {
+        font-family: $second-main-font;
+        font-size: 15px;
+        font-weight: 200;
+        line-height: 24px;
+    }
     &__unit {
         display: flex;
         flex-direction: column;

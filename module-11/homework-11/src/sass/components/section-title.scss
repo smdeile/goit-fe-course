@@ -6,11 +6,11 @@
     min-width: 1200px;
     min-height: 230px;
     &__text {
-        font-family: 'Kaushan Script';
+        font-family: $cursive-font;
         text-align: center;
     }
     &__header {
-        font-family: Montserrat;
+        font-family: $main-font-header-text;
         text-align: center;
         font-weight: 700;
     }
@@ -19,6 +19,6 @@
         justify-content: center;
         width: 60px;
         height: 3px;
-        background: $underline-color;
+        background: $underline-link-color;
         }
     }

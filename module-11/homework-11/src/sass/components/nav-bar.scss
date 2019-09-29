@@ -7,6 +7,9 @@
         background-repeat: no-repeat;
         height: 1000px;
         width: 100%;}
+        @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+        background: url(../img/eagle@2x.jpg) no-repeat center;
+        }
     &__section {
             height: 540px;
             color: $main-color-header-text;
